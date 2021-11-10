@@ -1,0 +1,12 @@
+com/example/appdoctruyentranh/interfaces/GetTruyen.java
+ com.example.appdoctruyentranh.interfaces.GetTruyen
+com/example/appdoctruyentranh/BuildConfig.java
+ com.example.appdoctruyentranh.BuildConfig
+com/example/appdoctruyentranh/adapter/TruyenTranhAdapter.java
+ com.example.appdoctruyentranh.adapter.TruyenTranhAdapter
+com/example/appdoctruyentranh/object/TruyenTranh.java
+ com.example.appdoctruyentranh.object.TruyenTranh
+com/example/appdoctruyentranh/api/ApiGetTruyen.java
+ com.example.appdoctruyentranh.api.ApiGetTruyen
+com/example/appdoctruyentranh/MainActivity.java
+ com.example.appdoctruyentranh.MainActivity
