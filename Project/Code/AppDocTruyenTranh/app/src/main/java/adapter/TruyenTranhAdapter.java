@@ -27,6 +27,23 @@ public class TruyenTranhAdapter extends ArrayAdapter<TruyenTranh> {
         this.arr = new ArrayList<>(objects);
 
     }
+    //sap xep truyen
+    public void sortTruyen(String r){
+        r=r.toUpperCase();
+        int k=0;
+        int i;
+        for(i = 0; i < arr.size(); i++){
+            TruyenTranh t = arr.get(i);
+            String ten = t.getTenTruyen().toUpperCase();
+            if (ten.indexOf(r) >= 0){
+                arr.set(i, arr.get(k));
+                arr.set(k,t);
+                k++;
+            }
+        }
+        //update list truyen
+        notifyDataSetChanged();
+    }
     @Override
     //pthuc getView để thiết lập cách hiển thị listItem
     public View getView(int position, View convertView, ViewGroup parent){
